@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galeri 6 Gambar</title>
+
+    <style>
+
+        body {
+            font-family: Arial;
+            margin: 20px;
+            background-color: #f2f2f2;
+        }
+        h2 {
+            text-align: center;
+        }
+
+        .galeri {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 12px;
+        }
+
+        .galeri img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h2>Galeri 6 Gambar</h2>
+
+    <div class="galeri">
+
+        <img src="https://picsum.photos/seed/gambar1/300/200">
+
+        <img src="https://picsum.photos/seed/gambar2/300/200">
+
+        <img src="https://picsum.photos/seed/gambar3/300/200">
+
+        <img src="https://picsum.photos/seed/gambar4/300/200">
+
+        <img src="https://picsum.photos/seed/gambar5/300/200">
+
+        <img src="https://picsum.photos/seed/gambar6/300/200">
+
+    </div>
+
+</body>
+</html>
